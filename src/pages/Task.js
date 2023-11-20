@@ -145,7 +145,7 @@ const Task = () => {
                 <option value="priority">By Priority</option>
               </select>
             </label>
-            <label className={styled.label}>
+            <label>
               Ordering:
               <select
                 onChange={(e) => setSortOption(e.target.value)}
