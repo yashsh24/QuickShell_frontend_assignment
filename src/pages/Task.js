@@ -7,22 +7,7 @@ import TicketCard from '../components/TicketCard'
 
 const API_URL = 'https://api.quicksell.co/v1/internal/frontend-assignment'
 
-const OptionsBox = styled.div`
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-`
 
-const Label = styled.label`
-  margin-right: 10px;
-`
-
-const Select = styled.select`
-  padding: 5px;
-  margin-right: 10px;
-`
 
 const priorityMap = {
   4: 'Urgent',
