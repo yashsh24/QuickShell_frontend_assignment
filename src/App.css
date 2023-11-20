@@ -1,0 +1,53 @@
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+.Task{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card-id{
+  color: #ddd;
+  font-size: 18px;
+}
+
+.filter-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.kanban{
+display: flex;
+flex-direction: column;
+}
+
+.board{
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 12px;
+  margin: 8px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
